@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style_screen.css" media="screen">
+    <link rel="stylesheet" href="./css/style_print.css" media="print">
+    <title>Kapcsolat - Kisvárosi Autószervíz</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/icon/car-repair.png" alt="Kisvárosi Autószervíz" title="Kisvárosi Autószervíz" class="logo" >
+            </a>
+            <a class="navbar-brand" id="brand-name" href="./index.html">Kisvárosi Autószervíz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./bemutatkozas.html">Bemutatkozás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./szolgaltatas.html">Szolgáltatások</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./kapcsolat.html">Kapcsolat</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="navbar-spacing"></div>
+    <div class="container">
+        <div class="row">
+            <h1 class="col-12 sub-page-h1 text-center text-uppercase mt-1">Kapcsolat</h1>
+        </div>
+    </div>
+    <div class="container contact-main">
+        <div class="row">
+            <h2 class=" col-12 mx-auto contact-h2 contact-print-h2 text-uppercase text-center mb-1 mt-2">Írjon nekünk!</h2>
+            <div class="col-12 col-lg-8 mb-2 mx-auto contact-section-1 ">
+                <form action="https://www.idokep.hu/idojaras/Budapest" method="post" class="row">
+                    <div class="col-12 col-lg-6 ">
+                        <div class="input-group my-2">
+                            <span class="input-group-text">Név</span>
+                            <input type="text" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">     
+                        <div class="input-group my-2">
+                            <span class="input-group-text">E-mail</span>
+                            <input type="email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8 mx-auto text-center">
+                        <label>Üzenet</label>
+                        <textarea name="message" rows="4" class="form-control" required></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn contact-btn my-2">Elküldés</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <h2 class="contact-h2 text-uppercase my-1 text-center">Elérhetőségek</h2>
+            <div class="col-12 col-lg-4 mx-auto contact-section-2 my-1 ">   
+                <div class="col-12 col-lg-8 mx-auto">
+                    <img class="contact-img mx-auto" src="./img/icon/map.png" alt="Kisvárosi Autószervíz" title="Kisvárosi autoszervíz">
+                    <h4 class="contact-text text-center mx-auto">4079 Debrecen-Bánk, Egyed Mester utca 11.</h4>
+                </div>
+                <div class="col-12 col-lg-8 mx-auto">
+                    <img class="contact-img mx-auto" src="./img/icon/email.png" alt="Kisvárosi Autószervíz" title="Kisvárosi autoszervíz">
+                    <a class="text-decoration-none contact-text text-center mx-auto" href="mailto:kisvarosiszerviz@gmail.com">kisvarosiszerviz@gmail.com</a>
+                </div>
+                <div class="col-12 col-lg-8 mx-auto">
+                    <img class="contact-img mx-auto" src="./img/icon/telephone.png" alt="Kisvárosi Autószervíz" title="Kisvárosi autoszervíz">
+                    <a class="text-decoration-none contact-text text-center mx-auto" href="tel:+36301112121">+36-30/111-21-21</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mx-auto">
+                <iframe id="map" class="col-12 col-lg-4 mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.783605110671!2d21.726980615868353!3d47.47464617917617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474708fe038addc5%3A0x106c45ea28afe7fa!2sDebrecen%2C%20Egyed%20Mester%20u.%2C%204079!5e0!3m2!1shu!2shu!4v1635799928377!5m2!1shu!2shu"  allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

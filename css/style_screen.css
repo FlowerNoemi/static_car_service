@@ -1,0 +1,161 @@
+body {
+    font-family:'Changa', sans-serif;
+}
+
+.logo {
+        width: 40px;  
+}
+#brand-name{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.navbar-spacing {
+    height: 146px;
+}
+.index {
+    background-color: #7b7d7f;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+.index-main {
+    background-color: #212324;
+    opacity: 90%;
+    height: 265px;
+    width: 290px;
+    border-radius: 20px;
+}
+.index-h1 {
+    color: #FCEC9C;
+    font-size: 44px;
+    border: 1px solid #212324;
+    border-radius: 20px;
+} 
+.index-main .btn-index {
+    border: 1px solid #7b7d7f;
+    background-color: #e7e9ea;
+    box-shadow: 1px 3px 5px -1.5px #7b7d7f;
+    color: #212324;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    width: 186px;
+}
+.index-main .btn-index:focus {
+     background-color: #FCEC9C;
+     color: #212324;
+}
+.index-main .btn-index:focus {
+    box-shadow: 0 0 0 3.5px #7b7d7f;
+}
+
+body {
+    background-color: #7b7d7f;
+    background-image: url("../img/bg_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+.sub-page-h1 {
+    background-color: #212324;
+    color: #FCEC9C;
+}
+.contact-main, .intro-main {
+    background-color: #e7e9ea;
+}
+
+.supply-main .card, .supply-section-2 .card{
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+.supply-main .card-body, .supply-section-2 .card-body{
+    background-color: #e7e9ea;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.supply-main .card-body:hover, .supply-section-2 .card-body:hover {
+    background-color: #FCEC9C;
+}
+.supply-main img, .supply-section-2 img {
+    width: 20%;
+    opacity: 0.6;
+    float: right;
+}
+.supply-main h5, .supply-section-2 h5 {
+    font-size: 20px;
+
+}
+
+.supply-btn .supply-btn-1 {
+    background-color: #7b7d7f70;
+    border-color: #8a9093;
+    transition: all 0.2s ease 0s;
+    color: #000000de;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+.supply-btn .supply-btn-1:focus{
+    box-shadow: none;
+}
+
+.supply-li {
+    list-style-image: url("../img/icon/screwdriver.png");
+    font-size: 18px;
+}
+
+.contact-section-1 .form-control {
+    font-size: 15px;
+}
+.contact-section-1 .form-control:focus {
+    border-color: #FCEC9C;
+    box-shadow: 0 0 0 0.25rem #FCEC9C;
+}
+.contact-btn {
+    color: #212324;
+    background-color: #d3d5d6;
+    border: 1px solid #212324;
+    border-radius: 0.30rem;
+}
+.contact-btn:focus{
+    box-shadow: 0 0 0 0.30rem #FCEC9C;
+    background-color: #FCEC9C40;
+    border: 1px solid #FCEC9C40;
+    color: #000000de;
+}
+.contact-section-2 a {
+    color: #636566;
+}
+.contact-section-2 a:hover {
+    color: #212324;
+}
+.contact-img {
+    float: none;
+    width: 60px;
+    display: block;
+}
+.contact-text {
+    clear: right;
+    text-align: center;
+    display: block;
+}
+#map {
+    height: 325px;
+    width:  100%;
+}
+.intro-li {
+    list-style-type: none;
+}
+.intro-link {
+    font-weight: bold;
+    color: #212324;
+}
+.intro-link:hover {
+    color: #636566;
+}

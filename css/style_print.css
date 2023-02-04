@@ -1,0 +1,80 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-toggler, .navbar-collapse {
+    display: none;
+} 
+#brand-name {
+        display: none;
+}
+.logo {
+    height: 30px;
+}
+.index-h1 {
+    color: #212324;
+    font-size: 26px;
+    text-align: center;
+} 
+.index-main .btn-index {
+    display: none;
+}
+
+.sub-page-h1 {
+    color: #212324;
+    font-size: 26px;
+    text-align: center;
+}
+.contact-section-1, .contact-img, #map, .contact-print-h2 {
+    display: none;
+}
+.contact-h2 {
+    text-align: center;
+    font-size: 18px;
+}
+.contact-section-2 a {
+    color: #212324;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+}
+.contact-text {
+    color: #212324;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.card-body img, .supply-btn, .supply-btn-1 {
+    display: none;
+}
+.supply-main h5, .supply-section-2 h5 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 6px;
+}
+.supply-li {
+    font-size: 18px;
+    list-style-type: square;
+}
+.carousel {
+    display: none;
+}
+.intro-main-h4 {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+.intro-li {
+    list-style-type: none;
+    text-align: justify;
+
+}
+.intro-link {
+    font-weight: normal;
+    color: #212324;
+    text-decoration: none;
+}
